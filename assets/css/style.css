@@ -4,9 +4,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "Figtre_Bold";
+    src: url(/assets/fonts/Figtree-ExtraBold.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 *{
-    font-family: "Figtre";
+    font-family: "Figtre", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -72,6 +78,7 @@ h1{
     padding: 10px 0;
     color: hsl(0, 0%, 7%);
     transition: all ease 0.3s;
+    font-family: 'Figtre_Bold', sans-serif;
     font-size: 23px;
     font-weight: 600;
 }
@@ -84,7 +91,7 @@ h1:hover{
 h2, h3 {
     padding: 10px 0;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 400;
     color: hsl(0, 0%, 42%);
 }
 
